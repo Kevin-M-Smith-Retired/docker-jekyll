@@ -16,9 +16,9 @@ RUN gem install \
   rdiscount \
   rouge
 
-VOLUME /src
+VOLUME /notebook-wiki
 EXPOSE 4000
 
-WORKDIR /src
+WORKDIR /notebook-wiki
 ENTRYPOINT ["jekyll"]
 
